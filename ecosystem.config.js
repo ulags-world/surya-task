@@ -14,7 +14,6 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'git@github.com/ulags-world/surya-task',
       path : '/home/sabarysh/Desktop/pm2_apps/surya',
-      
       'post-deploy' : 'npm install && pm2 start index.js'
     }
   }
